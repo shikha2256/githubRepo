@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ObjectRepository>
+	<Object id="" linkText="My Trips"
+		xpath="//P[@class='whiteText appendBottom3' or contains(text(),'My Trips')]" />
+</ObjectRepository>
