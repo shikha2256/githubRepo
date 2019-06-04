@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ObjectRepository>
+<PageNode name="Page_Landing"></PageNode>
+<PageNode name="Page_Login"><Object locatorname="loginclick" locatortype="xpath" locatorvalue="//*[@id='a-autoid-0-announce']"/><Object locatorname="emailtxt" locatortype="xpath" locatorvalue="//input[@id='ap_email']"/><Object locatorname="continue" locatortype="xpath" locatorvalue="//span[@id='continue']//input[@id='continue']"/><Object locatorname="password" locatortype="xpath" locatorvalue="//input[@id='ap_password']"/><Object locatorname="login" locatortype="xpath" locatorvalue="//input[@id='signInSubmit']"/></PageNode>
+<PageNode name="Page_Logout"><Object locatorname="HelloLink" locatortype="xpath" locatorvalue="//*[@id='nav-link-yourAccount']"/></PageNode>
+<PageNode name="Page_BuyProduct"><Object locatorname="SearchBar" locatortype="xpath" locatorvalue="//*[@id='twotabsearchtextbox']"/><Object locatorname="SearchButton" locatortype="xpath" locatorvalue="//*[@id='nav-search']/form/div[2]/div/input"/><Object locatorname="SearchedProduct" locatortype="linktext" locatorvalue="Apple iPhone X (64GB) - Space Grey"/><Object locatorname="productTitle" locatortype="xpath" locatorvalue="//*[@id='productTitle']"/><Object locatorname="AddToCart" locatortype="xpath" locatorvalue="//*[@id='add-to-cart-button']"/></PageNode>
+</ObjectRepository>

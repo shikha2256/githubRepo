@@ -1,0 +1,67 @@
+15/05/2019 06:38:37 LogReport extent report setup
+15/05/2019 06:38:38 LogReport Testing Type: feature
+15/05/2019 06:38:38 LogReport Platform: mobile
+15/05/2019 06:38:38 LogReport Browser: android
+15/05/2019 06:38:38 LogReport Parallel Execution using Grid: false
+15/05/2019 06:38:39 LogReport successfully created the the instance of driver manager class
+15/05/2019 06:38:39 LogReport Initilializing Driver .on thread :12
+15/05/2019 06:39:07 LogReport getting driver for thread : 12
+15/05/2019 06:39:07 LogReport Exception occuredjava.lang.NullPointerException
+15/05/2019 06:39:07 LogReport successfully initiated the driver instance using platform :mobile, browser :android and grid :false
+15/05/2019 06:39:08 LogReport Performing Login
+15/05/2019 06:39:08 LogReport Page Name : Page_Login
+15/05/2019 06:39:08 LogReport Object's Name : loginclick
+15/05/2019 06:39:08 LogReport Total Matching Nodes : 1
+15/05/2019 06:39:08 LogReport locatortype : id , locatorvalue : sign_in_button
+15/05/2019 06:39:09 LogReport getting driver for thread : 12
+15/05/2019 06:39:09 LogReport getting driver for thread : 12
+15/05/2019 06:39:09 LogReport Not able to get the screenshot
+15/05/2019 06:39:09 LogReport Exception occuredjava.lang.NullPointerException
+15/05/2019 06:39:09 LogReport getting driver for thread : 12
+15/05/2019 06:39:09 LogReport Closing Browser for thread : 12
+15/05/2019 06:39:09 LogReport getting driver for thread : 12
+15/05/2019 06:39:09 LogReport Exception occuredjava.lang.NullPointerException
+15/05/2019 06:39:10 freemarker.cache Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+15/05/2019 06:39:10 freemarker.cache TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+15/05/2019 06:39:10 freemarker.cache TemplateLoader.findTemplateSource("index.ftl"): Found
+15/05/2019 06:39:10 freemarker.cache Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Shikha/.m2/repository/com/aventstack/extentreports/3.1.1/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+15/05/2019 06:39:11 freemarker.cache Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+15/05/2019 06:39:11 freemarker.cache TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+15/05/2019 06:39:11 freemarker.cache TemplateLoader.findTemplateSource("head.ftl"): Found
+15/05/2019 06:39:11 freemarker.cache Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Shikha/.m2/repository/com/aventstack/extentreports/3.1.1/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+15/05/2019 06:39:11 freemarker.cache Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+15/05/2019 06:39:11 freemarker.cache TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+15/05/2019 06:39:11 freemarker.cache TemplateLoader.findTemplateSource("nav.ftl"): Found
+15/05/2019 06:39:11 freemarker.cache Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Shikha/.m2/repository/com/aventstack/extentreports/3.1.1/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+15/05/2019 06:39:11 freemarker.cache Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+15/05/2019 06:39:11 freemarker.cache TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+15/05/2019 06:39:11 freemarker.cache TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+15/05/2019 06:39:11 freemarker.cache Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Shikha/.m2/repository/com/aventstack/extentreports/3.1.1/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+15/05/2019 06:39:11 freemarker.cache Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+15/05/2019 06:39:11 freemarker.cache TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+15/05/2019 06:39:11 freemarker.cache TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+15/05/2019 06:39:11 freemarker.cache Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Shikha/.m2/repository/com/aventstack/extentreports/3.1.1/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+15/05/2019 06:39:11 freemarker.cache Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+15/05/2019 06:39:11 freemarker.cache TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+15/05/2019 06:39:11 freemarker.cache TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+15/05/2019 06:39:11 freemarker.cache Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Shikha/.m2/repository/com/aventstack/extentreports/3.1.1/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+15/05/2019 06:39:11 freemarker.cache Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+15/05/2019 06:39:11 freemarker.cache TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+15/05/2019 06:39:11 freemarker.cache TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+15/05/2019 06:39:11 freemarker.cache Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Shikha/.m2/repository/com/aventstack/extentreports/3.1.1/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+15/05/2019 06:39:11 freemarker.cache Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+15/05/2019 06:39:11 freemarker.cache TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+15/05/2019 06:39:11 freemarker.cache TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+15/05/2019 06:39:11 freemarker.cache Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Shikha/.m2/repository/com/aventstack/extentreports/3.1.1/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+15/05/2019 06:39:11 freemarker.cache Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+15/05/2019 06:39:11 freemarker.cache TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+15/05/2019 06:39:11 freemarker.cache TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+15/05/2019 06:39:11 freemarker.cache Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Shikha/.m2/repository/com/aventstack/extentreports/3.1.1/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+15/05/2019 06:39:11 freemarker.cache Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+15/05/2019 06:39:11 freemarker.cache TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+15/05/2019 06:39:11 freemarker.cache TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+15/05/2019 06:39:11 freemarker.cache Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Shikha/.m2/repository/com/aventstack/extentreports/3.1.1/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+15/05/2019 06:39:11 freemarker.cache Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+15/05/2019 06:39:11 freemarker.cache TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+15/05/2019 06:39:11 freemarker.cache TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+15/05/2019 06:39:11 freemarker.cache Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Shikha/.m2/repository/com/aventstack/extentreports/3.1.1/extentreports-3.1.1.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"

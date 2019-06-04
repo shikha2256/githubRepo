@@ -1,0 +1,183 @@
+{
+  "testId" : "1-layout-testing",
+  "name" : "layout testing",
+  "report" : {
+    "nodes" : [ {
+      "name" : "testing layout on various devices",
+      "status" : "error",
+      "time" : 1544010403271,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Skeleton",
+        "place" : {
+          "filePath" : ".\\src\\main\\resources\\specs\\homepage.gspec",
+          "lineNumber" : 13
+        },
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\main\\resources\\specs\\homepage.gspec",
+              "lineNumber" : 16
+            },
+            "name" : "inside screen 0px left right",
+            "errors" : [ "\"header\" is 631px right instead of 0px" ],
+            "highlight" : [ "header", "screen" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\main\\resources\\specs\\homepage.gspec",
+              "lineNumber" : 40
+            },
+            "name" : "inside screen 0px left right",
+            "errors" : [ "\"header\" is 631px right instead of 0px" ],
+            "highlight" : [ "header", "screen" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\main\\resources\\specs\\homepage.gspec",
+              "lineNumber" : 16
+            },
+            "name" : "inside screen 0px left right",
+            "highlight" : [ "footer", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\main\\resources\\specs\\homepage.gspec",
+              "lineNumber" : 40
+            },
+            "name" : "inside screen 0px left right",
+            "highlight" : [ "footer", "screen" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Header",
+        "place" : {
+          "filePath" : ".\\src\\main\\resources\\specs\\homepage.gspec",
+          "lineNumber" : 18
+        },
+        "objects" : [ {
+          "name" : "logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\main\\resources\\specs\\homepage.gspec",
+              "lineNumber" : 21
+            },
+            "name" : "inside header",
+            "highlight" : [ "logo", "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : ".\\src\\main\\resources\\specs\\homepage.gspec",
+              "lineNumber" : 45
+            },
+            "name" : "inside header",
+            "highlight" : [ "logo", "header" ]
+          } ]
+        }, {
+          "name" : "cart",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\main\\resources\\specs\\homepage.gspec",
+              "lineNumber" : 21
+            },
+            "name" : "inside header",
+            "errors" : [ "\"cart\" is not completely inside. The offset is 622px." ],
+            "highlight" : [ "cart", "header" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\main\\resources\\specs\\homepage.gspec",
+              "lineNumber" : 45
+            },
+            "name" : "inside header",
+            "errors" : [ "\"cart\" is not completely inside. The offset is 622px." ],
+            "highlight" : [ "cart", "header" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Logo",
+        "place" : {
+          "filePath" : ".\\src\\main\\resources\\specs\\homepage.gspec",
+          "lineNumber" : 23
+        },
+        "objects" : [ {
+          "name" : "logo",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\main\\resources\\specs\\homepage.gspec",
+              "lineNumber" : 25
+            },
+            "name" : "inside header 0px top,1141px right,0px left,60px bottom",
+            "errors" : [ "\"logo\" is 177px right instead of 1141px" ],
+            "highlight" : [ "logo", "header" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\main\\resources\\specs\\homepage.gspec",
+              "lineNumber" : 49
+            },
+            "name" : "inside header 0px top,1141px right,0px left,60px bottom",
+            "errors" : [ "\"logo\" is 177px right instead of 1141px" ],
+            "highlight" : [ "logo", "header" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Cart",
+        "place" : {
+          "filePath" : ".\\src\\main\\resources\\specs\\homepage.gspec",
+          "lineNumber" : 26
+        },
+        "objects" : [ {
+          "name" : "cart",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\main\\resources\\specs\\homepage.gspec",
+              "lineNumber" : 28
+            },
+            "name" : "inside header 9px right,2px bottom",
+            "errors" : [ "\"cart\" is -622px right instead of 9px" ],
+            "highlight" : [ "cart", "header" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : ".\\src\\main\\resources\\specs\\homepage.gspec",
+              "lineNumber" : 52
+            },
+            "name" : "inside header 9px right,2px bottom",
+            "errors" : [ "\"cart\" is -622px right instead of 9px" ],
+            "highlight" : [ "cart", "header" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "footer" : {
+          "area" : [ 0, 5037, 1000, 632 ]
+        },
+        "header" : {
+          "area" : [ 0, 0, 369, 99 ]
+        },
+        "screen" : {
+          "area" : [ 0, 0, 1000, 5669 ]
+        },
+        "logo" : {
+          "area" : [ 0, 0, 192, 39 ]
+        },
+        "cart" : {
+          "area" : [ 893, 53, 98, 44 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon Test Suite" parallel="tests" thread-count="2" >
+
+	<!-- WEB tests -->
+	
+	<!-- this listener is for retry feature  -->
+	  <listeners>
+		 
+		<!--  <listener
+		 class-name="com.skytesters.framework.DBReporting"/> -->
+		 
+		 <!-- <listener
+		 class-name="com.skytesters.framework.CustomReporter"/> -->
+		 
+		<!--  <listener
+		 class-name="com.skytesters.framework.ZapTesting"/> -->
+		 
+		 <!-- <listener 
+		 class-name="com.skytesters.framework.AnnotationTransformer" /> --> 
+	    
+	   <!--  <listener 
+		 class-name="com.v7.JmeterTest.JMeterFromExistingJMX" /> -->
+	     </listeners>   
+
+	 	<!--  <test thread-count="5" name="LoginLogout">
+		 <parameter name="platform_name" value="WIN" />
+		 <parameter name="browser_name" value="chrome" />
+		 <parameter name="device_name" value="" /> 
+		 <parameter name="version" value="" /> 
+		 <parameter name="url" value="" /> 
+		 <parameter name="device_id" value="" />
+		 <classes>
+		 <class name="com.v7.SeleniumAmazonTest.Test.LoginLogout" />
+		 </classes>
+		 </test>    -->
+	
+		<!-- <test thread-count="5" name="BuyProduct">
+		<parameter name="platform_name" value="WIN" />
+		<parameter name="browser_name" value="chrome" />
+		<parameter name="device_name" value="" /> 
+		<parameter name="version" value="" /> 
+		<parameter name="url" value="" />
+		<parameter name="device_id" value="" /> 
+		<classes>
+		<class name="com.v7.SeleniumAmazonTest.Test.BuyProduct" />
+		</classes>
+		</test>  
+ -->
+	 	<!-- <test thread-count="5" name="BuyProduct">
+		<parameter name="platform_name" value="WIN" />
+		<parameter name="browser_name" value="ie" />
+		<classes>
+		<class name="com.v7.SeleniumAmazonTest.Test.BuyProduct" />
+		</classes>
+		</test> -->
+	
+		<!-- <test thread-count="5" name="BuyProduct1">
+		<parameter name="platform_name" value="WIN" />
+		<parameter name="browser_name" value="chrome" />
+		<classes>
+		<class name="com.v7.SeleniumAmazonTest.Test.BuyProduct" />
+		</classes>
+		</test> -->   
+
+	
+	<!-- API test -->
+
+	<!-- <test thread-count="5" name="APITest"> 
+		 <classes> 
+		 <class name="com.v7.ApiTest.Test.TrelloAPIs_Tests"/> 
+		 </classes> 
+		 </test> -->
+
+	<!-- MOBILE test -->
+
+	     <test thread-count="5" name="Test1"> 	
+		 <parameter name="platform_name" value="mobile" /> 
+		 <parameter name="browser_name" value="android" /> 
+		 <parameter name="device_name" value="shikha" /> 
+		 <parameter name="version" value="8.1.0" /> 
+		 <parameter name="url" value="0.0.0.0:4723" /> 
+		 <parameter name="device_id" value="" /> 
+		 <classes> 
+		 <class name="com.v7.AndroidTest.Test.LoginLogout"/> 
+		 </classes> 
+		 </test>
+		 
+		<!--  <test thread-count="5" name="Test2"> 	
+		 <parameter name="platform_name" value="mobile" /> 
+		 <parameter name="browser_name" value="android" /> 
+		 <parameter name="device_name" value="shikha" /> 
+		 <parameter name="version" value="8.1.0" /> 
+		 <parameter name="url" value="0.0.0.0:4727" /> 
+		 <parameter name="device_id" value="" /> 
+		 <classes> 
+		 <class name="com.v7.AndroidTest.Test.LoginLogout"/> 
+		 </classes> 
+		 </test> -->  
+		 
+		<!--  <test thread-count="5" name="Test3"> 	
+		 <parameter name="platform_name" value="mobile" /> 
+		 <parameter name="browser_name" value="android" /> 
+		 <parameter name="device_name" value="SM G920V" /> 
+		 <parameter name="version" value="7.0" /> 
+		 <parameter name="url" value="0.0.0.0:4727" /> 
+		 <parameter name="device_id" value="192.168.77.28:5555" /> 
+		 <classes> 
+		 <class name="com.v7.AndroidTest.Test.LoginLogout"/> 
+		 </classes> 
+		 </test>  -->
+
+
+	<!-- Responsive test -->
+
+	<!-- <test thread-count="5" name="LayoutTest"> 
+		 <parameter name="platform_name" value="WIN" /> 
+		 <parameter name="browser_name" value="Chrome" /> 
+		 <parameter name="device_name" value="" /> 
+		<parameter name="version" value="" /> 
+		<parameter name="url" value="" />
+		<parameter name="device_id" value="" /> 
+		 <classes> 
+		 <class name="com.v7.GalenTest.Test.LayoutTest" /> 
+		 </classes> 
+		 </test> -->
+
+	<!-- Test -->
+
+</suite> <!-- Suite -->
