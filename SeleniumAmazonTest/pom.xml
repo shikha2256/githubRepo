@@ -21,7 +21,7 @@
 			<artifactId>SeleniumAutomation</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 			<scope>system</scope>
-			<systemPath>./SeleniumAutomation-0.0.1-SNAPSHOT.jar</systemPath>
+			<systemPath>SeleniumAutomation-0.0.1-SNAPSHOT.jar</systemPath>
 
 		</dependency>
 
